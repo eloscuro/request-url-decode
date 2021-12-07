@@ -1,0 +1,22 @@
+{
+    "name": "eloscuro/request-url-decode",
+    "description": "Middleware which performs url parameters decoding",
+    "type": "library",
+    "require": {
+        "laravel/lumen-framework": "8.x",
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "El Oscuro",
+            "email": "oscuro@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RequestUrlDecode\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
